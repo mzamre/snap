@@ -10,7 +10,7 @@ pipeline {
 		      }}
 		stage('Build') {
 	           steps {
-			  sh '/home/dev/Downloads/Mavenprac/WebApp/snap/mvn install'
+			  sh '/home/dev/Downloads/apache-maven-3.9.5-bin/apache-maven-3.9.5/mvn install'
 	                 }}
 		stage('Deployment'){
 		   steps {
