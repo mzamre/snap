@@ -14,6 +14,6 @@ pipeline {
 	                 }}
 		stage('Deployment'){
 		   steps {
-		sh 'cp target/snap.war /home/dev/Downloads/apache-tomcat-9.0.82/webapps'
+		sh 'cp target/insta.war /home/dev/Downloads/apache-tomcat-9.0.82/webapps'
 			}}	
 }}
